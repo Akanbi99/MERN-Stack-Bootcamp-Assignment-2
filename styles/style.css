@@ -1,0 +1,64 @@
+html {
+    background-color: rgb(250, 250, 250);
+
+}
+
+body {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 50px auto ;
+    box-shadow: 10px 10px 5px #8888;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    position: relative;
+}
+
+img {
+    width: 50px;
+    border: 2px solid rgba(25, 64, 240, 0.938);
+    border-radius: 30%;
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}
+
+h2 {
+    margin: 50px;
+}
+
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 40px;
+}
+
+main {
+    width: 70%;
+
+}
+
+
+input::placeholder {
+    opacity: 0.4;
+}
+
+button {
+    background-color: rgba(25, 64, 240, 0.938);
+    padding: 7px;
+    margin: 10px 40px;
+    width: 110%;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+}
+
+.ext-link {
+    margin: 0px auto 40px;
+}
